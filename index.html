@@ -82,6 +82,15 @@
     a.external-link:hover {
       text-decoration: underline;
     }
+    .contact-info {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .linkedin-logo {
+      width: 24px;
+      vertical-align: middle;
+    }
   </style>
 </head>
 <body>
@@ -104,47 +113,30 @@
   <section id="skills">
     <h2>Technical Expertise</h2>
     <ul class="skills">
-      <li>AWS</li>
-      <li>Linux</li>
-      <li>Docker</li>
-      <li>Kubernetes</li>
-      <li>Terraform</li>
-      <li>GitHub Actions</li>
-      <li>Jenkins</li>
-      <li>Python</li>
-      <li>Bash</li>
-      <li>Prometheus</li>
-      <li>Grafana</li>
-      <li>ArgoCD</li>
-    </ul>
-  </section>
-
-  <section id="projects">
-    <h2>Innovations & Contributions</h2>
-    <p>From optimizing cloud costs to designing highly available infrastructure, I have contributed to projects that enhance efficiency and reliability.</p>
-    <ul>
-      <li><strong>FreshAir Sensors</strong> - Automated deployment for a scalable IoT platform.</li>
-      <li><strong>Internet Query Gateway</strong> - CI/CD pipeline for a microservices platform.</li>
-      <li><strong>Ablestar</strong> - Kubernetes and GitOps-powered deployment automation.</li>
+      <li>Linux</li> <li>Shell</li> <li>Bash</li> <li>Python</li> <li>Golang</li> <li>Git</li> <li>GitHub</li> <li>GitLab</li> 
+      <li>GitHub Actions</li> <li>Jenkins</li> <li>CircleCI</li> <li>ArgoCD</li> <li>FluxCD</li> <li>Terraform</li> <li>CloudFormation</li> 
+      <li>Pulumi</li> <li>Ansible</li> <li>Chef</li> <li>Puppet</li> <li>Docker</li> <li>Podman</li> <li>Kubernetes</li> <li>Helm</li> 
+      <li>OpenShift</li> <li>AWS</li> <li>Azure</li> <li>GCP</li> <li>Prometheus</li> <li>Grafana</li> <li>ELK Stack</li> <li>New Relic</li> 
+      <li>Nginx</li> <li>SonarQube</li> <li>GitOps</li> <li>CI/CD</li> <li>SDLC</li> <li>Agile</li> <li>Incident Management</li> 
+      <li>Monitoring</li> <li>Logging</li> <li>Alerting</li> <li>SRE Practices</li>
     </ul>
   </section>
 
   <section id="blog">
     <h2>Latest Blog Posts</h2>
-    <p>Sharing my knowledge and experiences in DevOps, cloud architecture, and containerization.</p>
     <div>
       <h3>Create Reusable GitHub Actions Templates Using Private Repos</h3>
-      <p>Explore how to structure reusable GitHub Actions templates within private repositories. Learn best practices for modular workflows, security considerations, and efficient automation sharing.</p>
+      <p>Learn how to structure reusable GitHub Actions templates within private repositories.</p>
       <p><a href="https://mhassankhokhar.medium.com/create-reusable-github-actions-templates-using-private-repos-9c0918d592c3" target="_blank" class="external-link">Read more</a></p>
     </div>
     <div>
       <h3>Using Docker to Host Prometheus and Monitor Docker Metrics</h3>
-      <p>Set up Prometheus within a Docker environment to monitor container metrics. Discover configuration steps, Docker Compose setup, and visualization techniques with Grafana.</p>
+      <p>Set up Prometheus within a Docker environment to monitor container metrics.</p>
       <p><a href="https://mhassankhokhar.medium.com/using-docker-to-host-prometheus-and-monitor-docker-metrics-886d4cc8322" target="_blank" class="external-link">Read more</a></p>
     </div>
     <div>
       <h3>Creating a Well-Architected Amazon VPC: Tips and Best Practices</h3>
-      <p>Design a scalable and secure AWS VPC with strategic subnet planning, security group configurations, and best practices for optimizing network performance.</p>
+      <p>Design a scalable and secure AWS VPC with subnet planning and security best practices.</p>
       <p><a href="https://mhassankhokhar.medium.com/creating-well-architected-amazon-vpc-tips-and-best-practices-2e15dc5a6b66" target="_blank" class="external-link">Read more</a></p>
     </div>
   </section>
@@ -156,9 +148,13 @@
 
   <section id="contact">
     <h2>Connect with Me</h2>
-    <p>📍 Islamabad, Pakistan</p>
-    <p>✉️ <a href="mailto:to.hassankhokhar@gmail.com" class="external-link">to.hassankhokhar@gmail.com</a></p>
-    <p>🔗 <a href="https://www.linkedin.com/in/mhassaankhokhar" target="_blank" class="external-link">LinkedIn</a></p>
+    <div class="contact-info">
+      <p>📍 Islamabad, Pakistan</p>
+      <p>📞 +92 302 9306508</p>
+      <p>✉️ <a href="mailto:to.hassankhokhar@gmail.com" class="external-link">to.hassankhokhar@gmail.com</a></p>
+      <p>🔗 <a href="https://www.linkedin.com/in/mhassaankhokhar" target="_blank" class="external-link">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn" class="linkedin-logo"> LinkedIn</a></p>
+    </div>
   </section>
 
   <footer>
