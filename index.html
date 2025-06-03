@@ -78,7 +78,6 @@
     a.external-link:hover {
       text-decoration: underline;
     }
-    /* Photo styles */
     #photo-container {
       margin: 1rem auto 1.5rem;
       width: 150px;
@@ -108,7 +107,6 @@
     <div id="photo-container">
       <img id="profile-photo" src="photo.jpg" alt="Profile Photo" />
     </div>
-    <input type="file" accept="image/*" id="photo-upload" aria-label="Upload Profile Photo" />
   </header>
 
   <section id="about">
@@ -197,21 +195,5 @@
   <footer>
     &copy; 2025 Mohammad Hassan Ur Rehman
   </footer>
-
-  <script>
-    const photoUpload = document.getElementById('photo-upload');
-    const profilePhoto = document.getElementById('profile-photo');
-
-    photoUpload.addEventListener('change', function () {
-      const file = this.files[0];
-      if (file) {
-        const reader = new FileReader();
-        reader.onload = function (e) {
-          profilePhoto.setAttribute('src', e.target.result);
-        }
-        reader.readAsDataURL(file);
-      }
-    });
-  </script>
 </body>
 </html>
